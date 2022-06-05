@@ -9,7 +9,7 @@
 body{
   background-attachment: fixed;
   font-family: "Poppins";
-  background-image: url(/Images/overlay.png), url("https://www.cigionline.org/static/images/stock-internet.2e16d0ba.fill-1600x900.jpg");
+  background-image: url(../Images/overlay.png), url("https://www.cigionline.org/static/images/stock-internet.2e16d0ba.fill-1600x900.jpg");
 }
 
 .navB {
