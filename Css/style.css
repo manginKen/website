@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+body{
+  background-attachment: fixed;
+  font-family: "Poppins";
+  background-image: url(/Images/overlay.png), url("https://www.cigionline.org/static/images/stock-internet.2e16d0ba.fill-1600x900.jpg");
+}
+
+.navB {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky; 
+}
+.navB__container {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+#navB__Logo{
+    background: #f12711; 
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navB__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navB__item{
+    height: 88px;
+}
+.navB_links {
+    color: #f12711;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    font-size: 1.4rem;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.navB_links:hover{
+    color: aqua;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.first-con {
+    padding-top: 5em;
+    padding: 2em;
+  }
+  .first-con h1{
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: "Poppins";
+      color: #40DFEF;
+  }
+  .first-con p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #eee;
+  }
+  .form {
+    font-size: 0.9rem;
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #email {
+    font-size: 1em;
+    width: 18em;
+    padding: 0em 0.6em;
+    margin: 1em;
+    margin-top: 2em;
+    height: 3em;
+    border-radius: 30px;
+    border: 0.12rem solid #000;
+  }
+  
+  .submit {
+    font-size: 1em;
+    border: none;
+    border-radius: 30px;
+    height: 3em;
+    padding: 0em 2em;
+    margin: 1em;
+    margin-top: 2em;
+    font-weight: bold;
+    background: #F8CB2E;
+    color: #000;
+  }
+  
+
+  #features {
+    color: #6FDFDF;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Poppins";
+    padding-top: 10px;
+  }
+  #features p{
+    color: #eee;
+  }
+  .feature {
+    display: flex;
+    width: 70vw;
+    font-size: 0.8rem;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+    
+  }
+  
+  .feature .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .3em;
+  }
+  
+  .feature i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 0.6em;
+    color: #E15FED;
+    font-size: 3rem;
+  
+  }
+ .about {
+   margin-top: 4.4em;
+    padding-bottom: 5em;
+  }
+  
+  .price {
+    font-size: 0.8rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding-bottom: 10em;
+  }
+  
+  .plan {
+    display: flex;
+    flex-direction: column;
+    border: 0.1em solid #E15FED;
+    text-align: center;
+    justify-content: stretch;
+    align-items: center;
+    width: 23em;
+    margin: 1em;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .plan h2 {
+    color: #9254C8;
+    font-size: 2em;
+  }
+  
+.plan-menu {
+    background: #533E85;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+    color: white;
+    height: 2.1em;
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+  }
+li{
+  font-size: 1.3em;
+}
+  
+ol {
+  list-style: none;
+  padding: 1em;
+}
+
+button {
+  border-radius: 20px;
+  width: 10em;
+  background: #F8CB2E;
+  color: #000;
+  height: 3em;
+  font-weight: bold;
+  border: none;
+  margin: 1em;
+  font-size: 1em;
+}
+footer {
+  background-color: #111;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
+  opacity: 50%;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container h2{
+  font-size: 1.8em;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.footer-container p{
+  font-size: 1em;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bot{
+  background: #000;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  
+}
+.footer-bot span{
+  text-transform: uppercase;
+  color: aqua
+}
+@media screen and (max-width: 768px) {
+  nav {
+    width: 0%;
+  }
+}
+
+
